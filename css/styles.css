@@ -12,7 +12,7 @@ body {
 
 .main-container {
     background-color: hsl(244, 38%, 16%);
-    width: 85%;
+    width: 90%;
     margin-top: 10%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -44,12 +44,12 @@ body {
 }
 
 .heading-text {
-    margin: 1em;
+    margin: 1em 0em;
 }
  
 h1 {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.73em;
     text-align: center;
 }
 
@@ -59,9 +59,9 @@ h1 {
 
 .paragraph-text {
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 1.10em;
+    font-size: 0.9em;
     text-align: center;
-    margin: 1em 1em;
+    margin: 1em 0em;
 }
 
 .stats {
@@ -140,12 +140,18 @@ h1 {
         width: 42%;
     }
      
+    .heading-text {
+        margin: 1em;
+    }
+
     h1 {
         text-align: left;
+        font-size: 2em;
     }
     
     .paragraph-text {
         text-align: left;
+        font-size: 1.10em;
     }
 
     .stat-group {

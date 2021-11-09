@@ -113,7 +113,7 @@ h1 {
         margin-top: 20%;
         border-radius: 10px;
         display: inline-flex;
-
+        flex-direction: row-reverse;
     }
 
     #header-img {
@@ -121,17 +121,17 @@ h1 {
         background-repeat: no-repeat;
         background-size: cover;
         height: 25em;
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
         position: relative;
         width: 50%;
     }
 
     #accent {
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
     }
 
     .text-div {
